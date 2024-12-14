@@ -1,0 +1,81 @@
+body {
+    background-color: #F9FAFB;
+    font-family: "Poppins";
+}
+
+.newsletter-content {
+    margin-top: 0
+}
+
+.newsletter-header {
+    margin: 20vh auto 3rem;
+    text-align: center;
+    min-width: 80%;
+}
+
+.newsletter-heading {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.newsletter-subheading {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 1.25rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#newsletter-form-main {
+    min-width: 250;
+    min-height: 250;
+    max-width: 600px;
+    max-height: 250px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 0 auto 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.rounded-box {
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    background-color: #F9FAFB;
+    width: 90%;
+    height: 8vh;
+}
+
+#newsletter-form-password {
+    background-color: #F9FAFB;
+    margin-top: 20px;
+}
+
+#newsletter-form-password::placeholder {
+    color: #394150;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.newsletter-form-subscribe {
+    background-color: #284BCE;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.newsletter-form-helpertext {
+    color: #394150;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 25px;
+}

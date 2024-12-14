@@ -1,24 +1,44 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="card">
-      <img src="Cactus.jpg" class="card-img" />
-      <div class="card-tag">Design</div>
-      <h3 class="card-title">Embracing Minimalism</h3>
-      <h3 class="card-content">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</h3>
-      <hr class="card-sep">
-      <h3 class="card-footer">Annie Spratt</h3>
-    </div>
+    <main class="newsletter-content">
+      <div class="newsletter-header">
+        <img src="logo.svg" />
+        <h1 class="newsletter-heading">Join our newsletter</h1>
+        <h2 class="newsletter-subheading">
+          Keep up with our latest collections, exclusive deals, and special
+          offers! We introduce a new collection every week, so stay tuned to
+          snag the hottest items just for you.
+        </h2>
+      </div>
+
+      <form type="submit" method="POST" id="newsletter-form-main">
+        <input
+          type="password"
+          method="POST"
+          id="newsletter-form-password"
+          class="rounded-box"
+          placeholder="Enter your email adress"
+        />
+        <button class="newsletter-form-subscribe rounded-box">
+          Subscribe now
+        </button>
+        <h5 class="newsletter-form-helpertext">
+          Your email is 100% confidential and won’t send you any spam.
+        </h5>
+      </form>
+    </main>
   </body>
 </html>
